@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**This is an app that gives you information about any movie of your choice with a single button click. Enjoy!**
+**This is an app that gives you information about any movie of your choice with just a button click. Enjoy!**
 
 ## Available Scripts
 
