@@ -24,6 +24,7 @@ import './App.css';
             
         };
        handleFetch();
+
        return () =>{
           
        } 
@@ -86,7 +87,7 @@ import './App.css';
                     ))}
                     </div>
                 </div>
-                ) : (<h2 className="check-existence">Oops. This movie does not exist in our database!</h2>)}
+                ) : (<h2 className="check-existence">Search for any movie and get a valid response</h2>)}
         </div>
      )
  }
