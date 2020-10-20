@@ -1,0 +1,190 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6%;
+    text-transform: uppercase;
+    color: rgb(216, 231, 231);
+}
+.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+
+}
+.button{
+    margin: 20px 0 0 12px;
+    width: 20vh;
+    height: 8vh;
+    padding-left: 17px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    background: green;
+    border: 1px solid rgb(101, 233, 101);
+    color: #fff;
+    outline: none;
+   
+}
+select{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button:hover{
+    background: red;
+    color: black;
+    border: 1px solid #000;
+}
+
+.revealResult{
+    text-align: center;
+    display: none;
+    font-size: 1.3em;
+    
+    
+}
+.preCursor{
+    text-align: center;
+    font-size: 1.1em;
+    display: none;
+    margin-bottom: -2%;
+}
+.advice{
+  text-align: center;
+  font-size: 1.0em;
+  border: 1px solid yellow;
+  background: #0cc;
+  width: 55%;
+  margin: 10px auto;
+  display: none;
+  
+}
+
+.setContainer select{
+  margin: 0 2%;
+}
+
+.lastTwoBtn > button{
+  display: flex;
+
+}
+
+.addGrade{
+  margin: auto;
+}
+/* .p, .p>select {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.elementWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-right: 3%;
+ 
+ 
+}
+
+
+#firstbox, #firstUnitBox{
+  color: rgb(18, 110, 18);
+  display: block;
+  margin-bottom: 12px;
+}
+
+
+
+/* copied spinner element */
+
+  .lds-roller {
+  display: none;
+  position: relative;
+  width: 10px;
+  height: 120px;
+  margin: auto;
+  align-content: center;
+  
+}
+
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+  display: flex;
+  
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
