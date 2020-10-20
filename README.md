@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a Grade Point Average calculator that I created to help Nigerian University students calculate their average point on the scale of 5.0
+**This is an app that gives you information about any movie of your choice with a single button click. Enjoy!**
 
 ## Available Scripts
 
